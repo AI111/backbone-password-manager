@@ -1,0 +1,28 @@
+// @import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap-mincer.scss";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap-sprockets.scss";
+// @import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap-compass.scss";
+@import "../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+
+#js-app {
+  width: 100%;
+}
+.login-page {
+  //.form-horizontal , label {
+  //  padding: 8px;
+  //  .form-group {
+  //    padding: 36px 16px 36px 16px;
+  //  }
+  }
+  .dasbord-page{
+    .form-inline {
+      width: 100%;
+    }
+    th input {
+      border: none;
+    }
+  }
+.has-error {
+  color:  red;
+  font-size: 16px;
+}
